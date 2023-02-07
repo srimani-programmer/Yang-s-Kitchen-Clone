@@ -145,3 +145,34 @@ hr {
     margin-top: 15px;
     font-size: 16px;
 }
+
+/* Contact Us Form Styles */
+.contacus__section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacus__section .title{
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.contacus__section .desc{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Form Section */
+
+.contact_us__form{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact_us__form .half_content{
+    height: 40px;
+    width: 40%;
+}
