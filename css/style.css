@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffefa;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header_container {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.header_logo__container{
+    width: 70%;
+}
+
+.header__logo{
+    width: 25%;
+    position: relative;
+    left: 20%;
+}
+
+.navbar__list{
+    list-style: none;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navbar__list .navbar__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.header_container i {
+    color: inherit;
+    font-size: 18px;
+    position: relative;
+    right: 50px;
+    top:25px
+}
+
+/* Home Section Image Styles */
+
+.home_container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.home_section__img {
+    width: 100%;
+}
+
+hr {
+    border: 1px solid #BFC0BB;
+    width: 50%;
+    margin: 40px auto 40px;
+}
+
+/* Section Styles */
+
+.content_section{
+    width: 50%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.general_content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.main_title{
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sub_title{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.order__btn{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 17px;
+}
+
+.order__btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.resume__btn{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid black;
+    width: 500px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 17px;
+}
+
+.resume__btn:hover{
+    background-color: black;
+    color: white;
+}
+/* Food Print Section */
+
+.foodprint_section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foodprint_section .main_title{
+    margin-top: 15px;
+    font-size: 16px;
+}
